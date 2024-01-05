@@ -1,0 +1,68 @@
+@font-face {
+    font-family: digital;
+    src: url(font/Digital\ Dismay.otf);
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+#time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid grey;
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    color: red;
+    font-size: 70px;
+    font-family: digital;
+}
+#stopwatch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 1);
+    color: red;
+    border: 5px solid grey;
+    font-size: 50px;
+    font-family: digital;
+}
+#timers{
+    font-size: 40px;
+    display: flex;
+    height: 50%;
+    align-items: flex-end;
+}
+#buttons{
+    height: 50%;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+#stopwatch button{
+    width: 60px;
+    height: 25px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+#stopwatch{
+    display: none;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    font-size: 15px;
+    border: 3px solid grey;
+    color: white;
+}
